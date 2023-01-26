@@ -1,0 +1,13 @@
+02:23:38 26-01-2023: [DEBUG] Running the bot with the following global settings:
+02:23:38 26-01-2023: [DEBUG] PAGE_LOAD_TIMEOUT = 60
+02:23:38 26-01-2023: [DEBUG] PAGE_DOWNLOAD_TIMEOUT = 60
+02:23:38 26-01-2023: [DEBUG] PROXIES_TIMEOUT_LIMIT = 35
+02:23:38 26-01-2023: [DEBUG] TARGET URL = https://www.hermes.com/nl/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|
+02:23:38 26-01-2023: [DEBUG] LOGGING CONFIGURATION = {'version': 1, 'disable_existing_loggers': True, 'formatters': {'default': {'format': '%(asctime)s: [%(levelname)s] %(message)s', 'datefmt': '%I:%M:%S %d-%m-%Y'}, 'colored': {'()': <class 'logger.ColoredFormatter'>}}, 'handlers': {'console': {'level': 'INFO', 'formatter': 'colored', 'class': 'logging.StreamHandler', 'stream': 'ext://sys.stdout'}, 'file': {'level': 'DEBUG', 'formatter': 'default', 'class': 'logging.FileHandler', 'filename': 'bot.log', 'mode': 'w'}}, 'loggers': {'': {'handlers': ['console', 'file'], 'level': 'DEBUG', 'propagate': False}}}
+02:23:38 26-01-2023: [INFO] Acquiring the proxies list.
+02:23:38 26-01-2023: [INFO] Control loop started.
+02:23:38 26-01-2023: [INFO] Instantiating a driver with proxy: 31.186.239.246:8080.
+02:23:46 26-01-2023: [INFO] Attempting to get the page.
+02:23:46 26-01-2023: [ERROR] The proxy has timed-out, moving on to the next proxy.
+02:23:51 26-01-2023: [INFO] Instantiating a driver with proxy: 164.70.122.6:3128.
+02:23:59 26-01-2023: [INFO] Attempting to get the page.

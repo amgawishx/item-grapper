@@ -1,0 +1,1528 @@
+1674719798747	geckodriver	INFO	Listening on 127.0.0.1:4652
+1674719801905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileWwPIRp"
+1674719802335	Marionette	INFO	Marionette enabled
+1674719802340	Marionette	INFO	Listening on port 4661
+1674719803339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileWwPIRp\\search.json.mozlz4", (void 0)))
+1674719851310	Marionette	INFO	Stopped listening on port 4661
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1674719851557	geckodriver	INFO	Listening on 127.0.0.1:4708
+1674719854594	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofiledmqzOe"
+1674719854982	Marionette	INFO	Marionette enabled
+1674719854986	Marionette	INFO	Listening on port 4716
+1674719855724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofiledmqzOe\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674719879584	Marionette	INFO	Stopped listening on port 4716
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2194:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2708:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2178: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+[Parent 16960, IP1674719879692	geckodriver	INFO	Listening on 127.0.0.1:4743
+1674719882729	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileokZnzE"
+1674719883084	Marionette	INFO	Marionette enabled
+1674719883089	Marionette	INFO	Listening on port 4751
+1674719884243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileokZnzE\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674719898982	Marionette	INFO	Stopped listening on port 4751
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2194:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2708:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2178: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+[Parent 18652, IPC I/O Parent] WARNING: file /builds/worker1674719902290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileecQdRO"
+1674719902671	Marionette	INFO	Marionette enabled
+1674719902676	Marionette	INFO	Listening on port 4784
+1674719903539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileecQdRO\\search.json.mozlz4", (void 0)))
+1674719908847	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674719909021	Marionette	INFO	Stopped listening on port 4784
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674719915113	geckodriver	INFO	Listening on 127.0.0.1:4808
+1674719918142	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile0sDbO7"
+1674719918591	Marionette	INFO	Marionette enabled
+1674719918596	Marionette	INFO	Listening on port 4816
+1674719919486	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile0sDbO7\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: , line 0: uncaught exception: [object Object]
+JavaScript error: , line 0: uncaught exception: [object Object]
+1674720104843	Marionette	INFO	Stopped listening on port 4816
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1674720106272	geckodriver	INFO	Listening on 127.0.0.1:1695
+1674720109301	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilekx8swf"
+1674720109788	Marionette	INFO	Marionette enabled
+1674720109793	Marionette	INFO	Listening on port 1703
+1674720110672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilekx8swf\\search.json.mozlz4", (void 0)))
+1674720115836	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674720115994	Marionette	INFO	Stopped listening on port 1703
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 9484, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 370: UnknownError: IDBDatabase.transaction: Can't start IndexedDB transaction during shutdown
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1674720120421	geckodriver	INFO	Listening on 127.0.0.1:1727
+1674720123458	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilebbjKBn"
+1674720123829	Marionette	INFO	Marionette enabled
+1674720123835	Marionette	INFO	Listening on port 1735
+1674720125100	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilebbjKBn\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674720231688	geckodriver	INFO	Listening on 127.0.0.1:1815
+1674720234719	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile1ucEuL"
+1674720235107	Marionette	INFO	Marionette enabled
+1674720235112	Marionette	INFO	Listening on port 1823
+1674720235715	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile1ucEuL\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674720282708	Marionette	INFO	Stopped listening on port 1823
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2194:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2708:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+1674720282775	geckodriver	INFO	Listening on 127.0.0.1:1855
+1674720285792	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile6trv7S"
+1674720286384	Marionette	INFO	Marionette enabled
+1674720286393	Marionette	INFO	Listening on port 1863
+1674720287737	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile6trv7S\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674720310559	Marionette	INFO	Stopped listening on port 1863
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2194:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2708:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+1674720310618	geckodriver	INFO	Listening on 127.0.0.1:1894
+1674720313666	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileroeiq1"
+1674720314140	Marionette	INFO	Marionette enabled
+1674720314148	Marionette	INFO	Listening on port 1902
+1674720315386	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileroeiq1\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674720334625	Marionette	INFO	Stopped listening on port 1902
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2194:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2708:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2178: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+[Parent 18960, IPC I/O Parent] WARNING: file /builds/worker1674720337723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilezsehQI"
+1674720338459	Marionette	INFO	Marionette enabled
+1674720338469	Marionette	INFO	Listening on port 1935
+1674720339615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilezsehQI\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674720361980	Marionette	INFO	Stopped listening on port 1935
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2194:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2708:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2178: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1674720362102	geckodriver	INFO	Listening on 127.0.0.1:1969
+1674720365137	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilexNKVgq"
+1674720365683	Marionette	INFO	Marionette enabled
+1674720365690	Marionette	INFO	Listening on port 1977
+1674720489063	geckodriver	INFO	Listening on 127.0.0.1:27919
+1674720492137	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilelJPyl7"
+1674720492925	Marionette	INFO	Marionette enabled
+1674720492931	Marionette	INFO	Listening on port 27927
+1674720493962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilelJPyl7\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674720512008	Marionette	INFO	Stopped listening on port 27927
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2194:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2708:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+1674720512063	geckodriver	INFO	Listening on 127.0.0.1:27954
+1674720515098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileOSyRwF"
+1674720515537	Marionette	INFO	Marionette enabled
+1674720515542	Marionette	INFO	Listening on port 27962
+1674720516651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileOSyRwF\\search.json.mozlz4", (void 0)))
+1674720523087	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674720523226	Marionette	INFO	Stopped listening on port 27962
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674720527625	geckodriver	INFO	Listening on 127.0.0.1:27986
+1674720530651	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileu7T6xM"
+1674720531046	Marionette	INFO	Marionette enabled
+1674720531052	Marionette	INFO	Listening on port 27995
+1674720532245	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileu7T6xM\\search.json.mozlz4", (void 0)))
+1674720565945	Marionette	INFO	Stopped listening on port 27995
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1674720566412	geckodriver	INFO	Listening on 127.0.0.1:28040
+1674720569419	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileu2AJ77"
+1674720569940	Marionette	INFO	Marionette enabled
+1674720569945	Marionette	INFO	Listening on port 28048
+1674720570572	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileu2AJ77\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674720581590	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674720581726	Marionette	INFO	Stopped listening on port 28048
+[Parent 18648, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1674720583665	geckodriver	INFO	Listening on 127.0.0.1:28074
+1674720586704	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileDYHZsI"
+1674720587083	Marionette	INFO	Marionette enabled
+1674720587088	Marionette	INFO	Listening on port 28082
+1674720587620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileDYHZsI\\search.json.mozlz4", (void 0)))
+1674720591845	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674720592010	Marionette	INFO	Stopped listening on port 28082
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1674720594982	geckodriver	INFO	Listening on 127.0.0.1:28106
+1674720598020	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileGYev4y"
+1674720598400	Marionette	INFO	Marionette enabled
+1674720598405	Marionette	INFO	Listening on port 28114
+1674720598850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileGYev4y\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674720856452	geckodriver	INFO	Listening on 127.0.0.1:28217
+1674720859496	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileBdAll9"
+1674720859939	Marionette	INFO	Marionette enabled
+1674720859944	Marionette	INFO	Listening on port 28225
+1674720860633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileBdAll9\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674720936346	Marionette	INFO	Stopped listening on port 28225
+[Parent 17844, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1674720938322	geckodriver	INFO	Listening on 127.0.0.1:28323
+1674720941351	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilehRaM0z"
+1674720941725	Marionette	INFO	Marionette enabled
+1674720941730	Marionette	INFO	Listening on port 28331
+1674721034530	geckodriver	INFO	Listening on 127.0.0.1:28350
+1674721037571	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile2WtWwl"
+1674721038027	Marionette	INFO	Marionette enabled
+1674721038032	Marionette	INFO	Listening on port 28358
+1674721039125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile2WtWwl\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674721053090	Marionette	INFO	Stopped listening on port 28358
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1674721065886	geckodriver	INFO	Listening on 127.0.0.1:28391
+1674721068929	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile2jtgmW"
+1674721069357	Marionette	INFO	Marionette enabled
+1674721069362	Marionette	INFO	Listening on port 28401
+1674721070310	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile2jtgmW\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674721094773	Marionette	INFO	Stopped listening on port 28401
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2194:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2708:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+1674721094850	geckodriver	INFO	Listening on 127.0.0.1:28433
+1674721097874	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileIr2tMf"
+1674721098279	Marionette	INFO	Marionette enabled
+1674721098285	Marionette	INFO	Listening on port 28442
+1674721099037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileIr2tMf\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674721117763	Marionette	INFO	Stopped listening on port 28442
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2194:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2708:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+1674721117819	geckodriver	INFO	Listening on 127.0.0.1:28469
+1674721120840	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileqPj5gP"
+1674721121226	Marionette	INFO	Marionette enabled
+1674721121231	Marionette	INFO	Listening on port 28477
+1674721121743	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileqPj5gP\\search.json.mozlz4", (void 0)))
+1674721147808	Marionette	INFO	Stopped listening on port 28477
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1674721148060	geckodriver	INFO	Listening on 127.0.0.1:28522
+1674721151090	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileudnacx"
+1674721151470	Marionette	INFO	Marionette enabled
+1674721151475	Marionette	INFO	Listening on port 28530
+1674721152068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileudnacx\\search.json.mozlz4", (void 0)))
+JavaScript error: https://www.hermes.com/nl/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|, line 3: uncaught exception: [object Object]
+JavaScript error: https://www.hermes.com/nl/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|, line 3: uncaught exception: [object Object]
+JavaScript error: https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAhHKKdaDPWTQAp6xP5w==&cid=5-ixRgyx3k_8bot_Q8ecVyf3d6a_wr6OHBDf7HSyQuCFupTgY7-yy90NMuVzqeIK-aRLuJ1LctRUeTOKIKRM08mvMtfrk2d9AHgwx_B7iKyl3P5HPXrXKR3wUF5doAQY&referer=http%3A%2F%2Fbck.hermes.com%2Fcustomer-session%3Flocale%3Dnl_en&hash=2211F522B61E269B869FA6EAFFB5E1&t=bv&s=8945&e=e63def2909304ae9a12a48f7bbc9cb1cfb366abb32b4dfdc428c0d7f4c14bee9&cid=5-ixRgyx3k_8bot_Q8ecVyf3d6a_wr6OHBDf7HSyQuCFupTgY7-yy90NMuVzqeIK-aRLuJ1LctRUeTOKIKRM08mvMtfrk2d9AHgwx_B7iKyl3P5HPXrXKR3wUF5doAQY, line 120: TypeError: MutationObserver.observe: Argument 1 is not an object.
+1674721256761	geckodriver	INFO	Listening on 127.0.0.1:28630
+1674721259786	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile9fybzQ"
+1674721260166	Marionette	INFO	Marionette enabled
+1674721260172	Marionette	INFO	Listening on port 28639
+1674721261222	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile9fybzQ\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-W39B2P, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-W39B2P, line 37: uncaught exception: [object Object]
+1674721535228	geckodriver	INFO	Listening on 127.0.0.1:28731
+1674721538290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileSabX6U"
+1674721538665	Marionette	INFO	Marionette enabled
+1674721538671	Marionette	INFO	Listening on port 28739
+1674721539237	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileSabX6U\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674721564987	Marionette	INFO	Stopped listening on port 28739
+Marionette threw an error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no]
+allowAllCerts.disable@chrome://remote/content/marionette/cert.js:55:23
+destroy@chrome://remote/content/shared/webdriver/Session.jsm:202:19
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2194:25
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2708:8
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+1674721565053	geckodriver	INFO	Listening on 127.0.0.1:28775
+1674721568086	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilebo2Vlm"
+1674721568452	Marionette	INFO	Marionette enabled
+1674721568457	Marionette	INFO	Listening on port 28783
+1674721569039	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilebo2Vlm\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674721690485	Marionette	INFO	Stopped listening on port 28783
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934593/customhighlighter79, type hide failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nhide@resource://devtools/client/fronts/highlighters.js:32:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\nhideHighlighterType@resource://devtools/client/inspector/shared/highlighters-overlay.js:640:23\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\n_hideBoxModel@resource://devtools/client/inspector/markup/markup.js:731:40\n_onMouseOut@resource://devtools/client/inspector/markup/markup.js:699:16\nobserve@resource://gre/modules/AsyncShutdown.jsm:575:16\nGeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2727:22\ndespatch@chrome://remote/content/marionette/server.js:306:40\nexecute@chrome://remote/content/marionette/server.js:279:16\nonPacket/<@chrome://remote/content/marionette/server.js:252:20\nonPacket@chrome://remote/content/marionette/server.js:253:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+[Parent 15076, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 15076, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1674721692619	geckodriver	INFO	Listening on 127.0.0.1:28870
+1674721695645	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileHswLx5"
+1674721696033	Marionette	INFO	Marionette enabled
+1674721696038	Marionette	INFO	Listening on port 28878
+1674721696867	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileHswLx5\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://www.hermes.com/nl/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|, line 3: uncaught exception: [object Object]
+JavaScript error: https://www.hermes.com/nl/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|, line 3: uncaught exception: [object Object]
+1674721748228	Marionette	INFO	Stopped listening on port 28878
+1674721929070	geckodriver	INFO	Listening on 127.0.0.1:28974
+1674721932102	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileBRQE52"
+*** You are running in headless mode.
+1674721932438	Marionette	INFO	Marionette enabled
+1674721932443	Marionette	INFO	Listening on port 28983
+1674721933104	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileBRQE52\\search.json.mozlz4", (void 0)))
+JavaScript error: https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAA7UWdrwPwNMAyGnXFg%3D%3D&hash=2211F522B61E269B869FA6EAFFB5E1&cid=4kls4QrWQtNpc_Ug6pKP7Ixte~y-3Q1gJQdAJ9czAxXD~j7nXA2RhxiVAv7_q2YSO_gwpEmQshF8jaFwBy4Voe0AuZ84ijQ4pyN9aIBHsR8hVG~2c0vDvUfQm0O~sewB&t=bv&referer=https%3A%2F%2Fwww.hermes.com%2Fnl%2Fen%2Fcategory%2Fwomen%2Fbags-and-small-leather-goods%2Fbags-and-clutches%2F%23%7C&s=13461&e=af8da29a6eafa1675be31cfa7a5f8fda466393b11b7ad49f3c02496552b4dd47, line 120: TypeError: MutationObserver.observe: Argument 1 is not an object.
+1674722100018	geckodriver	INFO	Listening on 127.0.0.1:29071
+1674722103061	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileEy3bjl"
+1674722103382	Marionette	INFO	Marionette enabled
+1674722103387	Marionette	INFO	Listening on port 29079
+1674722104093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileEy3bjl\\search.json.mozlz4", (void 0)))
+1674722107908	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674722108048	Marionette	INFO	Stopped listening on port 29079
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674722112144	geckodriver	INFO	Listening on 127.0.0.1:29106
+1674722115183	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilez6W6KH"
+1674722115636	Marionette	INFO	Marionette enabled
+1674722115640	Marionette	INFO	Listening on port 29114
+1674722117090	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilez6W6KH\\search.json.mozlz4", (void 0)))
+1674722123999	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674722124141	Marionette	INFO	Stopped listening on port 29114
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674722129592	geckodriver	INFO	Listening on 127.0.0.1:29140
+1674722132629	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile4cqxJH"
+1674722133049	Marionette	INFO	Marionette enabled
+1674722133054	Marionette	INFO	Listening on port 29149
+1674722134600	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile4cqxJH\\search.json.mozlz4", (void 0)))
+1674722140253	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674722140409	Marionette	INFO	Stopped listening on port 29149
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674722146668	geckodriver	INFO	Listening on 127.0.0.1:29176
+1674722149707	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileZ1ZCbV"
+1674722150118	Marionette	INFO	Marionette enabled
+1674722150122	Marionette	INFO	Listening on port 29184
+1674722151396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileZ1ZCbV\\search.json.mozlz4", (void 0)))
+1674722156875	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674722157013	Marionette	INFO	Stopped listening on port 29184
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 16016, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674722163314	geckodriver	INFO	Listening on 127.0.0.1:29209
+1674722166341	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileXVNx55"
+1674722166934	Marionette	INFO	Marionette enabled
+1674722166938	Marionette	INFO	Listening on port 29217
+1674722168574	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileXVNx55\\search.json.mozlz4", (void 0)))
+1674722173724	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674722173889	Marionette	INFO	Stopped listening on port 29217
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674722179840	geckodriver	INFO	Listening on 127.0.0.1:29244
+1674722182878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileVCdRGa"
+1674722183286	Marionette	INFO	Marionette enabled
+1674722183290	Marionette	INFO	Listening on port 29252
+1674722184597	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileVCdRGa\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674722220425	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674722220548	Marionette	INFO	Stopped listening on port 29252
+1674722222802	geckodriver	INFO	Listening on 127.0.0.1:29301
+1674722225831	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileYmISTe"
+1674722226409	Marionette	INFO	Marionette enabled
+1674722226414	Marionette	INFO	Listening on port 29310
+1674722227561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileYmISTe\\search.json.mozlz4", (void 0)))
+1674722574024	geckodriver	INFO	Listening on 127.0.0.1:29389
+1674722577067	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileSuw3iP"
+1674722577557	Marionette	INFO	Marionette enabled
+1674722577562	Marionette	INFO	Listening on port 29397
+1674722578966	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileSuw3iP\\search.json.mozlz4", (void 0)))
+1674722584815	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674722584967	Marionette	INFO	Stopped listening on port 29397
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674722590171	geckodriver	INFO	Listening on 127.0.0.1:29423
+1674722593200	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileelPrF0"
+1674722593614	Marionette	INFO	Marionette enabled
+1674722593619	Marionette	INFO	Listening on port 29431
+1674722594872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileelPrF0\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674722684046	Marionette	INFO	Stopped listening on port 29431
+1674722689690	geckodriver	INFO	Listening on 127.0.0.1:29515
+1674722692720	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileRyUH96"
+1674722693075	Marionette	INFO	Marionette enabled
+1674722693080	Marionette	INFO	Listening on port 29523
+1674722694205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileRyUH96\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674722719571	Marionette	INFO	Stopped listening on port 29523
+[Parent 14444, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1674722781422	geckodriver	INFO	Listening on 127.0.0.1:29617
+1674722784452	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileRgDwdJ"
+1674722784818	Marionette	INFO	Marionette enabled
+1674722784823	Marionette	INFO	Listening on port 29626
+1674722785778	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileRgDwdJ\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674722811906	Marionette	INFO	Stopped listening on port 29626
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1674722812285	geckodriver	INFO	Listening on 127.0.0.1:29699
+1674722815310	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileY3Z7wg"
+1674722815747	Marionette	INFO	Marionette enabled
+1674722815752	Marionette	INFO	Listening on port 29707
+1674722816515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileY3Z7wg\\search.json.mozlz4", (void 0)))
+1674722821378	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674722821538	Marionette	INFO	Stopped listening on port 29707
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 15192, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674722826480	geckodriver	INFO	Listening on 127.0.0.1:29731
+1674722829522	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileUZamVx"
+1674722829944	Marionette	INFO	Marionette enabled
+1674722829950	Marionette	INFO	Listening on port 29740
+1674722830723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileUZamVx\\search.json.mozlz4", (void 0)))
+JavaScript error: https://www.hermes.com/nl/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|, line 3: uncaught exception: [object Object]
+JavaScript error: https://www.hermes.com/nl/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|, line 3: uncaught exception: [object Object]
+1674722849865	Marionette	INFO	Stopped listening on port 29740
+1674723076616	geckodriver	INFO	Listening on 127.0.0.1:29833
+1674723079662	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile10CWtl"
+*** You are running in headless mode.
+1674723080110	Marionette	INFO	Marionette enabled
+1674723080115	Marionette	INFO	Listening on port 29841
+1674723081339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile10CWtl\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674723229269	Marionette	INFO	Stopped listening on port 29841
+1674723230978	geckodriver	INFO	Listening on 127.0.0.1:29891
+1674723234004	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileuSUMNk"
+*** You are running in headless mode.
+1674723234546	Marionette	INFO	Marionette enabled
+1674723234550	Marionette	INFO	Listening on port 29899
+1674723235358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileuSUMNk\\search.json.mozlz4", (void 0)))
+1674723239216	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674723239358	Marionette	INFO	Stopped listening on port 29899
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 9612, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674723244676	geckodriver	INFO	Listening on 127.0.0.1:29924
+1674723247714	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileoeiIMh"
+*** You are running in headless mode.
+1674723248079	Marionette	INFO	Marionette enabled
+1674723248083	Marionette	INFO	Listening on port 29932
+1674723248967	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileoeiIMh\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674723347160	geckodriver	INFO	Listening on 127.0.0.1:30033
+1674723350202	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilefhVCZY"
+*** You are running in headless mode.
+1674723350824	Marionette	INFO	Marionette enabled
+1674723350828	Marionette	INFO	Listening on port 30041
+1674723351964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilefhVCZY\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674723431531	Marionette	INFO	Stopped listening on port 30041
+[Parent 10444, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1674723433334	geckodriver	INFO	Listening on 127.0.0.1:30120
+1674723436376	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile0S9LXI"
+*** You are running in headless mode.
+1674723436752	Marionette	INFO	Marionette enabled
+1674723436756	Marionette	INFO	Listening on port 30130
+1674723437468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile0S9LXI\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674723631927	geckodriver	INFO	Listening on 127.0.0.1:1053
+1674723634959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilemRc8X0"
+*** You are running in headless mode.
+1674723635374	Marionette	INFO	Marionette enabled
+1674723635379	Marionette	INFO	Listening on port 1064
+1674723635723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilemRc8X0\\search.json.mozlz4", (void 0)))
+1674723640506	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674723640686	Marionette	INFO	Stopped listening on port 1064
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 18124, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674723646515	geckodriver	INFO	Listening on 127.0.0.1:1089
+1674723649552	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileFxOsrP"
+*** You are running in headless mode.
+1674723649990	Marionette	INFO	Marionette enabled
+1674723649995	Marionette	INFO	Listening on port 1098
+1674723650829	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileFxOsrP\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674723827935	geckodriver	INFO	Listening on 127.0.0.1:1158
+1674723830967	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileRMRCaL"
+*** You are running in headless mode.
+1674723831371	Marionette	INFO	Marionette enabled
+1674723831375	Marionette	INFO	Listening on port 1167
+1674723831876	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileRMRCaL\\search.json.mozlz4", (void 0)))
+1674723835281	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674723835471	Marionette	INFO	Stopped listening on port 1167
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674723839999	geckodriver	INFO	Listening on 127.0.0.1:1194
+1674723843023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilec9fpVq"
+*** You are running in headless mode.
+1674723843375	Marionette	INFO	Marionette enabled
+1674723843380	Marionette	INFO	Listening on port 1204
+1674723844195	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilec9fpVq\\search.json.mozlz4", (void 0)))
+1674723847993	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674723848171	Marionette	INFO	Stopped listening on port 1204
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 18356, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674723853945	geckodriver	INFO	Listening on 127.0.0.1:1232
+1674723856993	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilezn3lie"
+*** You are running in headless mode.
+1674723857425	Marionette	INFO	Marionette enabled
+1674723857429	Marionette	INFO	Listening on port 1240
+1674723858362	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilezn3lie\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674723904288	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674723904402	Marionette	INFO	Stopped listening on port 1240
+[Parent 15508, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1674723906923	geckodriver	INFO	Listening on 127.0.0.1:1269
+1674723909960	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileEaRDb9"
+*** You are running in headless mode.
+1674723910296	Marionette	INFO	Marionette enabled
+1674723910300	Marionette	INFO	Listening on port 1277
+1674723910924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileEaRDb9\\search.json.mozlz4", (void 0)))
+1674723974776	Marionette	INFO	Stopped listening on port 1277
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\kxdragon\AppData\Local\Temp\rust_mozprofileEaRDb9\protections.sqlite
+1674723976201	geckodriver	INFO	Listening on 127.0.0.1:1362
+1674723979229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilehprUB2"
+*** You are running in headless mode.
+1674723979558	Marionette	INFO	Marionette enabled
+1674723979562	Marionette	INFO	Listening on port 1370
+1674723980164	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilehprUB2\\search.json.mozlz4", (void 0)))
+1674723984127	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674723984266	Marionette	INFO	Stopped listening on port 1370
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 5016, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 5016, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674723990193	geckodriver	INFO	Listening on 127.0.0.1:1395
+1674723993221	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile3TJytu"
+*** You are running in headless mode.
+1674723993645	Marionette	INFO	Marionette enabled
+1674723993650	Marionette	INFO	Listening on port 1403
+1674723994464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile3TJytu\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674724058337	Marionette	INFO	Stopped listening on port 1403
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1674724076739	geckodriver	INFO	Listening on 127.0.0.1:1463
+1674724079776	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilexHWYUk"
+*** You are running in headless mode.
+1674724080145	Marionette	INFO	Marionette enabled
+1674724080151	Marionette	INFO	Listening on port 1471
+1674724081326	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilexHWYUk\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674724144444	Marionette	INFO	Stopped listening on port 1471
+1674724145631	geckodriver	INFO	Listening on 127.0.0.1:16014
+1674724148660	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofiletHsmfI"
+*** You are running in headless mode.
+1674724149024	Marionette	INFO	Marionette enabled
+1674724149029	Marionette	INFO	Listening on port 16022
+1674724149834	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofiletHsmfI\\search.json.mozlz4", (void 0)))
+1674724154322	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674724154461	Marionette	INFO	Stopped listening on port 16022
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 19028, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674724160524	geckodriver	INFO	Listening on 127.0.0.1:16047
+1674724163564	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileUpHt93"
+*** You are running in headless mode.
+1674724164043	Marionette	INFO	Marionette enabled
+1674724164049	Marionette	INFO	Listening on port 16055
+1674724164917	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileUpHt93\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674724549178	geckodriver	INFO	Listening on 127.0.0.1:1060
+1674724552213	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileeSBb2p"
+*** You are running in headless mode.
+1674724552766	Marionette	INFO	Marionette enabled
+1674724552771	Marionette	INFO	Listening on port 1068
+1674724554102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileeSBb2p\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://www.hermes.com/nl/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|, line 3: uncaught exception: [object Object]
+JavaScript error: https://www.hermes.com/nl/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|, line 3: uncaught exception: [object Object]
+1674724579724	Marionette	INFO	Stopped listening on port 1068
+1674724642706	geckodriver	INFO	Listening on 127.0.0.1:1124
+1674724645735	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileZifx6l"
+*** You are running in headless mode.
+1674724646285	Marionette	INFO	Marionette enabled
+1674724646290	Marionette	INFO	Listening on port 1132
+1674724647560	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileZifx6l\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1674724653889	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674724654021	Marionette	INFO	Stopped listening on port 1132
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 3672, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674724662051	geckodriver	INFO	Listening on 127.0.0.1:1156
+1674724665079	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilemgtjUf"
+*** You are running in headless mode.
+1674724665658	Marionette	INFO	Marionette enabled
+1674724665663	Marionette	INFO	Listening on port 1164
+1674724667097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilemgtjUf\\search.json.mozlz4", (void 0)))
+1674724673316	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674724673470	Marionette	INFO	Stopped listening on port 1164
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 15836, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  QuotaExceededError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  QuotaExceededError
+console.log: "RemoteSettingsWorker error: QuotaExceededError: IndexedDB:   The current transaction exceeded its quota limitations."
+console.log: "RemoteSettingsWorker error: Error: IndexedDB: Error accessing remote-settings IDB at version 3"
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+1674724681714	geckodriver	INFO	Listening on 127.0.0.1:1192
+1674724684744	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilejSgXgx"
+*** You are running in headless mode.
+1674724685252	Marionette	INFO	Marionette enabled
+1674724685257	Marionette	INFO	Listening on port 1200
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+1674724686636	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilejSgXgx\\search.json.mozlz4", (void 0)))
+JavaScript error: , line 0: NotReadableError: Could not open the file at C:\Users\kxdragon\AppData\Local\Temp\rust_mozprofilejSgXgx\sessionCheckpoints.json.tmp for writing
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1184: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\kxdragon\AppData\Local\Temp\rust_mozprofilejSgXgx\content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1184: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\kxdragon\AppData\Local\Temp\rust_mozprofilejSgXgx\content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not create directory at C:\Users\kxdragon\AppData\Local\Temp\rust_mozprofilejSgXgx\thumbnails
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  QuotaExceededError
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 2013: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+[2023-01-26T09:18:07Z ERROR glean] Failed to initialize Glean: An I/O error occurred: There is not enough space on the disk. (os error 112)
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+console.error: SearchSettings: "_write: Could not write to settings file:" (new NotReadableError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilejSgXgx\\search.json.mozlz4.tmp for writing", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1184: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\kxdragon\AppData\Local\Temp\rust_mozprofilejSgXgx\content-prefs.sqlite: 2152857621
+console.error: "Could not write session state file " (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilejSgXgx\\sessionstore-backups\\recovery.jsonlz4.tmp for writing", (void 0))) ""
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\kxdragon\AppData\Local\Temp\rust_mozprofilejSgXgx\thumbnails) because it does not exist
+1674724748078	Marionette	INFO	Stopped listening on port 1200
+[Parent 18688, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1674724749937	geckodriver	INFO	Listening on 127.0.0.1:1245
+1674724752966	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilenlToPm"
+*** You are running in headless mode.
+1674724753455	Marionette	INFO	Marionette enabled
+1674724753460	Marionette	INFO	Listening on port 1253
+1674724754830	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilenlToPm\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674724791364	Marionette	INFO	Stopped listening on port 1253
+1674724794126	geckodriver	INFO	Listening on 127.0.0.1:1026
+1674724797169	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileVtJXTe"
+*** You are running in headless mode.
+1674724797530	Marionette	INFO	Marionette enabled
+1674724797535	Marionette	INFO	Listening on port 1035
+1674724798992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileVtJXTe\\search.json.mozlz4", (void 0)))
+1674724804986	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674724805107	Marionette	INFO	Stopped listening on port 1035
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 14584, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674724813606	geckodriver	INFO	Listening on 127.0.0.1:1068
+1674724816643	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileyc6fVF"
+*** You are running in headless mode.
+1674724817212	Marionette	INFO	Marionette enabled
+1674724817217	Marionette	INFO	Listening on port 1076
+1674724820170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileyc6fVF\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674724856397	Marionette	INFO	Stopped listening on port 1076
+[Parent 18808, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1674724859887	geckodriver	INFO	Listening on 127.0.0.1:1137
+1674724862916	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileYnv5Q8"
+*** You are running in headless mode.
+1674724863603	Marionette	INFO	Marionette enabled
+1674724863607	Marionette	INFO	Listening on port 1145
+1674724865012	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileYnv5Q8\\search.json.mozlz4", (void 0)))
+1674724871775	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674724871883	Marionette	INFO	Stopped listening on port 1145
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 19264, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 19264, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674724880238	geckodriver	INFO	Listening on 127.0.0.1:1168
+1674724883276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilev7ORjV"
+*** You are running in headless mode.
+1674724883699	Marionette	INFO	Marionette enabled
+1674724883704	Marionette	INFO	Listening on port 1176
+1674724884785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilev7ORjV\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674724950931	Marionette	INFO	Stopped listening on port 1176
+[Parent 11728, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 11728, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1674724974392	geckodriver	INFO	Listening on 127.0.0.1:33311
+1674724977432	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileFwEGWc"
+*** You are running in headless mode.
+1674724977901	Marionette	INFO	Marionette enabled
+1674724977905	Marionette	INFO	Listening on port 33319
+1674724979090	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileFwEGWc\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674725044455	Marionette	INFO	Stopped listening on port 33319
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1674725047496	geckodriver	INFO	Listening on 127.0.0.1:33357
+1674725050545	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilee69jYZ"
+*** You are running in headless mode.
+1674725050941	Marionette	INFO	Marionette enabled
+1674725050945	Marionette	INFO	Listening on port 33365
+1674725053499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilee69jYZ\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1674725058911	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674725059022	Marionette	INFO	Stopped listening on port 33365
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 18528, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674725068279	geckodriver	INFO	Listening on 127.0.0.1:33390
+1674725071308	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileaaCtPr"
+*** You are running in headless mode.
+1674725071644	Marionette	INFO	Marionette enabled
+1674725071648	Marionette	INFO	Listening on port 33398
+1674725073248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileaaCtPr\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674725104933	Marionette	INFO	Stopped listening on port 33398
+[Parent 17800, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 17800, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1674725167791	geckodriver	INFO	Listening on 127.0.0.1:20778
+1674725170832	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile7gdzRQ"
+*** You are running in headless mode.
+1674725171274	Marionette	INFO	Marionette enabled
+1674725171278	Marionette	INFO	Listening on port 20786
+1674725174025	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile7gdzRQ\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1674725203897	Marionette	INFO	Stopped listening on port 20786
+1674725269203	geckodriver	INFO	Listening on 127.0.0.1:20840
+1674725272332	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileDMHTeX"
+*** You are running in headless mode.
+1674725272864	Marionette	INFO	Marionette enabled
+1674725272867	Marionette	INFO	Listening on port 20848
+1674725274231	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileDMHTeX\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674725337781	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674725337888	Marionette	INFO	Stopped listening on port 20848
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+[Parent 9532, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1674725340954	geckodriver	INFO	Listening on 127.0.0.1:20906
+1674725343980	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileXV6bzK"
+*** You are running in headless mode.
+1674725344369	Marionette	INFO	Marionette enabled
+1674725344373	Marionette	INFO	Listening on port 20914
+1674725345761	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileXV6bzK\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674725410520	Marionette	INFO	Stopped listening on port 20914
+[Parent 19364, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1674725413284	geckodriver	INFO	Listening on 127.0.0.1:20947
+1674725416468	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileIHgKnK"
+*** You are running in headless mode.
+1674725416958	Marionette	INFO	Marionette enabled
+1674725416962	Marionette	INFO	Listening on port 20955
+1674725418161	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileIHgKnK\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674725466269	Marionette	INFO	Stopped listening on port 20955
+1674725469902	geckodriver	INFO	Listening on 127.0.0.1:20989
+1674725472942	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilelDx66k"
+*** You are running in headless mode.
+1674725473438	Marionette	INFO	Marionette enabled
+1674725473441	Marionette	INFO	Listening on port 20997
+1674725475159	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilelDx66k\\search.json.mozlz4", (void 0)))
+1674725481259	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674725481397	Marionette	INFO	Stopped listening on port 20997
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 18768, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674725491118	geckodriver	INFO	Listening on 127.0.0.1:21022
+1674725494156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilebhPGGH"
+*** You are running in headless mode.
+1674725494725	Marionette	INFO	Marionette enabled
+1674725494728	Marionette	INFO	Listening on port 21030
+1674725496466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilebhPGGH\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674725540092	Marionette	INFO	Stopped listening on port 21030
+[Parent 18940, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1674725544446	geckodriver	INFO	Listening on 127.0.0.1:21092
+1674725547486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileIqMOps"
+*** You are running in headless mode.
+1674725548193	Marionette	INFO	Marionette enabled
+1674725548197	Marionette	INFO	Listening on port 21100
+1674725551021	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileIqMOps\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674725612581	Marionette	INFO	Stopped listening on port 21100
+1674725614552	geckodriver	INFO	Listening on 127.0.0.1:21181
+1674725617591	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilezbfRDB"
+*** You are running in headless mode.
+1674725617967	Marionette	INFO	Marionette enabled
+1674725617970	Marionette	INFO	Listening on port 21189
+1674725618944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilezbfRDB\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674725684041	Marionette	INFO	Stopped listening on port 21189
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+[Parent 13588, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1674725702459	geckodriver	INFO	Listening on 127.0.0.1:21226
+1674725705487	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile9tToNk"
+*** You are running in headless mode.
+1674725705876	Marionette	INFO	Marionette enabled
+1674725705880	Marionette	INFO	Listening on port 21234
+1674725706809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile9tToNk\\search.json.mozlz4", (void 0)))
+1674725710754	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674725710913	Marionette	INFO	Stopped listening on port 21234
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674725715041	geckodriver	INFO	Listening on 127.0.0.1:21257
+1674725718080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilegUPfwb"
+*** You are running in headless mode.
+1674725718637	Marionette	INFO	Marionette enabled
+1674725718642	Marionette	INFO	Listening on port 21265
+1674725719419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilegUPfwb\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674725750404	Marionette	INFO	Stopped listening on port 21265
+[Parent 19344, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1674725752054	geckodriver	INFO	Listening on 127.0.0.1:21345
+1674725755084	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileg1PZnX"
+*** You are running in headless mode.
+1674725755479	Marionette	INFO	Marionette enabled
+1674725755483	Marionette	INFO	Listening on port 21355
+1674725756319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileg1PZnX\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674725801444	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674725801578	Marionette	INFO	Stopped listening on port 21355
+1674725803409	geckodriver	INFO	Listening on 127.0.0.1:9287
+1674725806442	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileQ7rNgQ"
+*** You are running in headless mode.
+1674725806800	Marionette	INFO	Marionette enabled
+1674725806804	Marionette	INFO	Listening on port 9295
+1674725807892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileQ7rNgQ\\search.json.mozlz4", (void 0)))
+1674725812105	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674725812291	Marionette	INFO	Stopped listening on port 9295
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674725819125	geckodriver	INFO	Listening on 127.0.0.1:9320
+1674725822164	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileBem5yZ"
+*** You are running in headless mode.
+1674725822677	Marionette	INFO	Marionette enabled
+1674725822680	Marionette	INFO	Listening on port 9328
+1674725823788	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileBem5yZ\\search.json.mozlz4", (void 0)))
+1674725828573	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674725828741	Marionette	INFO	Stopped listening on port 9328
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 17960, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674725835257	geckodriver	INFO	Listening on 127.0.0.1:9357
+1674725838275	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileujbMe4"
+*** You are running in headless mode.
+1674725838709	Marionette	INFO	Marionette enabled
+1674725838713	Marionette	INFO	Listening on port 9365
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1674725841756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileujbMe4\\search.json.mozlz4", (void 0)))
+1674725844947	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674725845079	Marionette	INFO	Stopped listening on port 9365
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 16444, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674725852616	geckodriver	INFO	Listening on 127.0.0.1:1027
+1674725855635	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileCy3oa5"
+*** You are running in headless mode.
+1674725856025	Marionette	INFO	Marionette enabled
+1674725856029	Marionette	INFO	Listening on port 1037
+1674725857401	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileCy3oa5\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674725922506	Marionette	INFO	Stopped listening on port 1037
+1674725944259	geckodriver	INFO	Listening on 127.0.0.1:1101
+1674725947287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileLhHc7g"
+*** You are running in headless mode.
+1674725947644	Marionette	INFO	Marionette enabled
+1674725947649	Marionette	INFO	Listening on port 1109
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1674725952427	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileLhHc7g\\search.json.mozlz4", (void 0)))
+1674725957426	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674725957584	Marionette	INFO	Stopped listening on port 1109
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674725968768	geckodriver	INFO	Listening on 127.0.0.1:1138
+1674725971807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile6QXspE"
+*** You are running in headless mode.
+1674725972157	Marionette	INFO	Marionette enabled
+1674725972162	Marionette	INFO	Listening on port 1146
+1674725974394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofile6QXspE\\search.json.mozlz4", (void 0)))
+1674725981725	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674725981855	Marionette	INFO	Stopped listening on port 1146
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+[Parent 13464, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1674725988254	geckodriver	INFO	Listening on 127.0.0.1:1169
+1674725991292	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileUyrtba"
+*** You are running in headless mode.
+1674725991635	Marionette	INFO	Marionette enabled
+1674725991639	Marionette	INFO	Listening on port 1177
+1674725993094	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileUyrtba\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674726058199	Marionette	INFO	Stopped listening on port 1177
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1674726061233	geckodriver	INFO	Listening on 127.0.0.1:1261
+1674726064263	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileoEXrTA"
+*** You are running in headless mode.
+1674726064739	Marionette	INFO	Marionette enabled
+1674726064745	Marionette	INFO	Listening on port 1269
+1674726067004	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileoEXrTA\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674726135389	Marionette	INFO	Stopped listening on port 1269
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1674726138397	geckodriver	INFO	Listening on 127.0.0.1:1324
+1674726141435	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileyaRhub"
+*** You are running in headless mode.
+1674726141975	Marionette	INFO	Marionette enabled
+1674726141979	Marionette	INFO	Listening on port 1332
+1674726143960	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileyaRhub\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674726169032	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674726169050	Marionette	INFO	Stopped listening on port 1332
+1674726172293	geckodriver	INFO	Listening on 127.0.0.1:1434
+1674726175317	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileuf4vHm"
+*** You are running in headless mode.
+1674726175897	Marionette	INFO	Marionette enabled
+1674726175902	Marionette	INFO	Listening on port 1442
+1674726177002	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileuf4vHm\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674726189768	Marionette	INFO	Stopped listening on port 1442
+[Parent 16400, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 16400, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674726195126	geckodriver	INFO	Listening on 127.0.0.1:1466
+1674726198158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileJHYTQP"
+*** You are running in headless mode.
+1674726198615	Marionette	INFO	Marionette enabled
+1674726198619	Marionette	INFO	Listening on port 1474
+1674726200263	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileJHYTQP\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1674726254940	Marionette	INFO	Stopped listening on port 1474
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 906: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1674726257796	geckodriver	INFO	Listening on 127.0.0.1:1042
+1674726260885	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilei7F5DE"
+*** You are running in headless mode.
+1674726261279	Marionette	INFO	Marionette enabled
+1674726261284	Marionette	INFO	Listening on port 1050
+1674726262684	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilei7F5DE\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAMf7rrgPQqP8ABb24Bg==&cid=1_4llIIrPZZsaOP6c1H2L5MNTOYIbg3-~IXDeuiFkiywzEtfgRpzmmAm21F-mMyVZl~FZlbZocuaNPN2l7-T7W5rlIwY3_tc1xOUbk9kvYvoUJBYsuJ~YDXXXFlDjdnc&referer=http%3A%2F%2Fbck.hermes.com%2Fcustomer-session%3Flocale%3Dnl_en&hash=2211F522B61E269B869FA6EAFFB5E1&t=bv&s=8945&e=0e84eb6ee79aa8f46e4872752a8e1a2030e6b561eda0ac2d4acbd482f7b1613d&cid=1_4llIIrPZZsaOP6c1H2L5MNTOYIbg3-~IXDeuiFkiywzEtfgRpzmmAm21F-mMyVZl~FZlbZocuaNPN2l7-T7W5rlIwY3_tc1xOUbk9kvYvoUJBYsuJ~YDXXXFlDjdnc, line 120: TypeError: MutationObserver.observe: Argument 1 is not an object.
+1674726295025	Marionette	INFO	Stopped listening on port 1050
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+[Parent 14140, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1674735613543	geckodriver	INFO	Listening on 127.0.0.1:28949
+1674735616569	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofiledPqpDX"
+*** You are running in headless mode.
+1674735617149	Marionette	INFO	Marionette enabled
+1674735617154	Marionette	INFO	Listening on port 28957
+1674735618451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofiledPqpDX\\search.json.mozlz4", (void 0)))
+1674735818384	geckodriver	INFO	Listening on 127.0.0.1:29027
+1674735821417	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileKdR87G"
+*** You are running in headless mode.
+1674735821877	Marionette	INFO	Marionette enabled
+1674735821881	Marionette	INFO	Listening on port 29035
+1674735822706	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofileKdR87G\\search.json.mozlz4", (void 0)))
+1674735826569	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1674735826694	Marionette	INFO	Stopped listening on port 29035
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 194: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1674735831198	geckodriver	INFO	Listening on 127.0.0.1:29060
+1674735834239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--enable-javascript" "-no-remote" "-profile" "C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilesNCkEA"
+*** You are running in headless mode.
+1674735834825	Marionette	INFO	Marionette enabled
+1674735834829	Marionette	INFO	Listening on port 29068
+1674735836097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kxdragon\\AppData\\Local\\Temp\\rust_mozprofilesNCkEA\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
