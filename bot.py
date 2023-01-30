@@ -69,7 +69,7 @@ def create_driver(ip, port):
     firefox_options.add_argument("--headless")
     firefox_options.add_argument("--enable-javascript")
     driver = webdriver.Firefox(
-        firefox_options=firefox_options,
+        options=firefox_options,
         firefox_profile=profile
     )
     driver.set_page_load_timeout(PAGE_LOAD_TIMEOUT)
@@ -97,7 +97,7 @@ def main(rest=60):
     while True:
         try: ip, port = next(proxy)
         except StopIteration:
-            logging.error("Consumed all existing proxies, acquiring new.")
+            logging.warning("Consumed all existing proxies, acquiring new.")
             timeout_count = 0
             run_spiders()
         if timeout_count > PROXIES_TIMEOUT_LIMIT:
@@ -120,7 +120,7 @@ def main(rest=60):
                 results != set()):
                 new_items = new_results-results
                 if new_items != set():
-                    logging.warn(f"New items {new_items} has been found!")
+                    logging.warning(f"New items {new_items} has been found!")
                     send_email(f"The following products has been added \
                                to the Hermes store: {new_items}")
             results = new_results
