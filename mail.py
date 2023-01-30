@@ -1,13 +1,14 @@
 from ssl import create_default_context
 from smtplib import SMTP_SSL
+import os
 
-# TODO: add and use these variables from the environment
-APP_PASSWORD = "onticbqwrozfajpb"
-SMTP_SERVER = "smtp.gmail.com"
-COMPANY_EMAIL = "ahmed4h.gawish@gmail.com" 
-COMPANY_NAME = "SCDR"
-CLIENT_EMAIL = "amgawish@student.aast.edu" 
-CLIENT_NAME = "French Dude"
+
+APP_PASSWORD = os.environ["APP_PASSWORD"]
+SMTP_SERVER = os.environ["SMTP_SERVER"]
+COMPANY_EMAIL = os.environ["COMPANY_EMAIL"]
+COMPANY_NAME = os.environ["COMPANY_NAME"]
+CLIENT_EMAIL = os.environ["COMPANY_EMAIL"] 
+CLIENT_NAME = os.environ["CLIENT_NAME"]
 
 PORT = 465
 
