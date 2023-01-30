@@ -47,6 +47,8 @@ def run_spiders():
     system("scrapy crawl arachne -O proxies.json")
     sleep(10)
 
+run_spiders()
+
 def fetch_proxies():
     with open(PROXY_FILE) as f:
         proxies = load(f)
