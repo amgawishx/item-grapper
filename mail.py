@@ -1,5 +1,6 @@
 from ssl import create_default_context
 from smtplib import SMTP_SSL
+from email.mime.text import MIMEText
 import os
 
 
@@ -12,13 +13,13 @@ CLIENT_NAME = os.environ["CLIENT_NAME"]
 
 PORT = 465
 
-def send_email(message):
-    email = f"""From: {COMPANY_NAME} <{COMPANY_EMAIL}>
-To: {CLIENT_NAME} <{CLIENT_EMAIL}>
-Subject: New Hermes Products Notfication
-{message}
-"""
+def send_email(text):
+    message = MIMEText(text, 'plain', 'utf-8')
+    message['Subject'] = "New Hermes Products Notifications"
+    message['From'] = COMPANY_EMAIL
+    message['To'] = CLIENT_EMAIL 
     context = create_default_context()
     with SMTP_SSL(SMTP_SERVER, PORT, context=context) as server:
         server.login(COMPANY_EMAIL, APP_PASSWORD)
-        server.sendmail(COMPANY_EMAIL, CLIENT_EMAIL, email)
+        server.send_message(COMPANY_EMAIL, CLIENT_EMAIL, message)
+
