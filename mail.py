@@ -8,7 +8,7 @@ APP_PASSWORD = os.environ["APP_PASSWORD"]
 SMTP_SERVER = os.environ["SMTP_SERVER"]
 COMPANY_EMAIL = os.environ["COMPANY_EMAIL"]
 COMPANY_NAME = os.environ["COMPANY_NAME"]
-CLIENT_EMAIL = os.environ["COMPANY_EMAIL"] 
+CLIENT_EMAIL = os.environ["CLIENT_EMAIL"] 
 
 PORT = 465
 
