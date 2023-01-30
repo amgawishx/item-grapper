@@ -1,3 +1,8 @@
+"""
+Just ignore this file it doesn't matter,
+It just beautifies logging for coolness.
+"""
+
 import logging
 from logging.config import dictConfig as config
 
