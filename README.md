@@ -5,7 +5,7 @@ System requirements:
 - geckodriver
 - pip3
 
-Also RAM must be at least 2GB
+
 To install them run the following commands:
 ```
 sudo apt install python3
@@ -16,6 +16,8 @@ tar -xvzf geckodriver*
 chmod +x geckodriver
 sudo mv geckodriver /usr/local/bin
 ```
+
+Also RAM must be at least 2GB
 
 Python  requirements: 
 - scapy==2.6.3
