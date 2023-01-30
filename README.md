@@ -39,6 +39,6 @@ There are a few needed environment variables to run the application:
 - `CLIENT_EMAIL`: The email to send the notifications to.
 
 ## Notes
-Using the default run settings, the average time for a subsequent successful acquisition of products' data from the site is around 10-30 minutes, to reduce this time try experimenting with different `TIMEOUT`values.
+Using the default run settings, the average time for a subsequent successful acquisition of products' data from the site is around 10-30 minutes, to reduce this time try experimenting with different `TIMEOUT`values or use paid proxy services.
 
 Currently, the application only sends email notifications regarding new unique products, it doesn't detect new colors/variations of already existing products.
