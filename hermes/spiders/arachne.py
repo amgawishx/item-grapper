@@ -5,6 +5,7 @@ class ArachneSpider(scrapy.Spider):
     
     name = 'arachne'
     
+    # a list of URLs to fetch proxies from
     start_urls = ["https://free-proxy-list.net/",
                   "https://www.sslproxies.org/",
                   "https://www.us-proxy.org/"]
