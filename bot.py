@@ -129,10 +129,12 @@ def main(rest=60):
             logging.warning("Consumed all existing proxies, acquiring new.")
             timeout_count = 0
             run_spiders()
+            proxy = fetch_proxies()
         if timeout_count > PROXIES_TIMEOUT_LIMIT:
             logging.error("Too many timeouts occurred, updating the proxies.")
             timeout_count = 0
             run_spiders()
+            proxy = fetch_proxies()
         logging.info(f"Instantiating a driver with proxy: {ip}:{port}.")
         driver = create_driver(ip, port)
         try:
