@@ -36,6 +36,8 @@ PROXIES_TIMEOUT_LIMIT = 35
 # target URL
 URL = "https://www.hermes.com/nl/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|"
 
+PROXY = "http://mkom99.protonmail.com:kvx46aAk9Ak95gC@gate2.proxyfuel.com"
+
 # configuring the logger from the LOG_CONFIG dictionary found in logger.py
 config(LOG_CONFIG)
 
@@ -67,11 +69,14 @@ def fetch_proxies() -> tuple:
             yield proxy["IP Address"], proxy["Port"]
 
 
-def create_driver(ip: str, port: str) -> webdriver.Firefox:
+def create_driver(ip: str, port: str, premium = True) -> webdriver.Firefox:
     """
     A function to create a new Firefox driver object
     given the inputs (ip, port) that specify the proxy to use.
     """
+    if premium:
+        ip = PROXY
+        port = 2000
     window_size = choice(RESOLUTIONS).split(',') # choose a random resolution
     firefox_options = webdriver.FirefoxOptions()
     profile = webdriver.FirefoxProfile()
