@@ -12,8 +12,7 @@ CLIENT_EMAIL = os.environ["CLIENT_EMAIL"]
 
 PORT = 465
 
-TEMP = """<br>
-<div>
+TEMP = """<div>
 New product {name} has been found: 
 <br>
 <a href=https://hermes.com/{href}>
