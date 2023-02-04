@@ -151,7 +151,7 @@ def main(rest=10):
             timeout_count = 0
             run_spiders()
             proxy = fetch_proxies()
-        driver = create_driver(ip, port, premium=False)
+        driver = create_driver(ip, port)
         try:
             logging.info(f"Attempting to get the page.")
             driver.get(URL)
