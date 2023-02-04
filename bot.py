@@ -11,6 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import \
     WebDriverException, SessionNotCreatedException, TimeoutException
+from asyncio import wait, run, FIRST_COMPLETED
 
 PROXY_FILE = "./proxies.json"
 
@@ -129,11 +130,38 @@ def parse_html(html: str) -> set:
     return set(ids), imgs, links
     
 
-def main(rest=10):
+async def run(ip, port, results, premium = True):
     """
     The main function to run.
     """
     Port = 20000
+    if premium:
+        driver = create_driver(PROXY, Port+choice(range(1,450)), premium=False)
+    else:
+        driver = create_driver(ip, port, premium=False)
+    logging.info(f"Attempting to get the page.")
+    driver.get(URL)
+    wait = WebDriverWait(driver, PAGE_DOWNLOAD_TIMEOUT)
+    logging.info(f"Validating the page.")
+    validate_html(driver.page_source)
+    wait.until(EC.presence_of_element_located(
+        (By.CLASS_NAME, "product-item-name")))
+    logging.info("Parsing the page.")
+    new_ids, new_imgs, new_links = parse_html(driver.page_source)
+    # check if any new products are present
+    if (results != new_ids  and
+        results != set()):
+        new_items = new_ids-results
+        if new_items != set():
+            logging.warning(f"New items {new_items} has been found!")
+            send_email(new_items, new_imgs, new_links)
+    results = new_ids
+    logging.info(f"Data acquired: {results}.")
+    driver.quit()
+    return results
+
+async def main(rest = 10):
+    logging.info(f"Going to seelp for {rest}s")
     logging.info("Acquiring the proxies list.")
     proxy = fetch_proxies() # create proxies generator
     logging.info("Control loop started.")
@@ -151,32 +179,14 @@ def main(rest=10):
             timeout_count = 0
             run_spiders()
             proxy = fetch_proxies()
-        driver = create_driver(PROXY, Port+choice(range(1,450)), premium=False)
         try:
-            logging.info(f"Attempting to get the page.")
-            driver.get(URL)
-            wait = WebDriverWait(driver, PAGE_DOWNLOAD_TIMEOUT)
-            logging.info(f"Validating the page.")
-            validate_html(driver.page_source)
-            wait.until(EC.presence_of_element_located(
-                (By.CLASS_NAME, "product-item-name")))
-            logging.info("Parsing the page.")
-            new_ids, new_imgs, new_links = parse_html(driver.page_source)
-            # check if any new products are present
-            if (results != new_ids  and
-                results != set()):
-                new_items = new_ids-results
-                if new_items != set():
-                    logging.warning(f"New items {new_items} has been found!")
-                    send_email(new_items, new_imgs, new_links)
-            results = new_ids
-            logging.info(f"Data acquired: {results}.")
-            logging.info(f"Going to seelp for {rest}s")
-            driver.quit()
-            sleep(rest)
-            continue
+            done, _ = await wait([
+                run(ip, port, results),
+                run(ip, port, results, premium=False)
+            ], return_when=FIRST_COMPLETED)
+            results = done.pop().result()
         except (WebDriverException, AssertionError,
-                SessionNotCreatedException) as error:
+            SessionNotCreatedException) as error:
             if type(error) == AssertionError:
                 logging.error(
                     "The site has blocked or detected us as bot, moving on to the next proxy.")
@@ -186,8 +196,6 @@ def main(rest=10):
                 timeout_count += 1
                 logging.error(
                     "The proxy has timed-out, moving on to the next proxy.")
-            driver.quit()
-            continue
 
 if __name__ == "__main__":
-    main()
+    run(main())
