@@ -134,6 +134,7 @@ def main(rest=10):
     The main function to run.
     """
     Port = 20000
+    numbers = shuffle(list(range(1,451)))
     logging.info("Acquiring the proxies list.")
     proxy = fetch_proxies() # create proxies generator
     logging.info("Control loop started.")
@@ -151,7 +152,7 @@ def main(rest=10):
             timeout_count = 0
             run_spiders()
             proxy = fetch_proxies()
-        driver = create_driver(PROXY, Port+choice(range(1,450)), premium=False)
+        driver = create_driver(PROXY, Port+numbers.pop(), premium=False)
         try:
             logging.info(f"Attempting to get the page.")
             driver.get(URL)
