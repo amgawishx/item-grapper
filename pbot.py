@@ -134,7 +134,8 @@ def main(rest=10):
     The main function to run.
     """
     Port = 20000
-    numbers = shuffle(list(range(1,451)))
+    numbers = list(range(1,451))
+    shuffle(numbers)
     logging.info("Acquiring the proxies list.")
     proxy = fetch_proxies() # create proxies generator
     logging.info("Control loop started.")
