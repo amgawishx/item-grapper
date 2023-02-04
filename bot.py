@@ -186,7 +186,7 @@ async def main(rest = 10):
                 fetch(ip, port, results),
                 fetch(ip, port, results, premium=False)
             ], return_when=FIRST_COMPLETED)
-            logging.debug(done, _)
+            logging.debug(f"{done}, {_}")
             results = done.pop().result()
             logging.info(f"Data acquired: {results}.")
             logging.info(f"Going to seelp for {rest}s")
