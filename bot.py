@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import \
     WebDriverException, SessionNotCreatedException, TimeoutException
-from asyncio import wait, run, FIRST_COMPLETED
+from asyncio import wait, run, FIRST_COMPLETED, sleep as asleep
 
 PROXY_FILE = "./proxies.json"
 
@@ -101,7 +101,7 @@ def create_driver(ip: str, port: str, premium = True) -> webdriver.Firefox:
     driver.set_window_size(int(window_size[0]), int(window_size[1])) # set the chosen resolution
     return driver
 
-def validate_html(html: str) -> None:
+async def validate_html(html: str) -> None:
     """
     A function used to validate that the page we fetched
     is not a blocked or a captcha page using css selectors.
@@ -143,7 +143,7 @@ async def fetch(ip, port, results, premium = True):
     driver.get(URL)
     wait = WebDriverWait(driver, PAGE_DOWNLOAD_TIMEOUT)
     logging.info(f"Validating the page.")
-    validate_html(driver.page_source)
+    await validate_html(driver.page_source)
     wait.until(EC.presence_of_element_located(
         (By.CLASS_NAME, "product-item-name")))
     logging.info("Parsing the page.")
@@ -156,7 +156,6 @@ async def fetch(ip, port, results, premium = True):
             logging.warning(f"New items {new_items} has been found!")
             send_email(new_items, new_imgs, new_links)
     results = new_ids
-    logging.info(f"Data acquired: {results}.")
     driver.quit()
     return results
 
@@ -185,6 +184,7 @@ async def main(rest = 10):
                 fetch(ip, port, results, premium=False)
             ], return_when=FIRST_COMPLETED)
             results = done.pop().result()
+            logging.info(f"Data acquired: {results}.")
         except (WebDriverException, AssertionError,
             SessionNotCreatedException) as error:
             if type(error) == AssertionError:
