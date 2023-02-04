@@ -15,7 +15,7 @@ PORT = 465
 TEMP = """<div>
 New product {name} has been found: 
 <br>
-<a href=https://hermes.com/{href}>
+<a href=https://hermes.com{href}>
 <img src={src} alt={name}></a>
 </div><br>"""
 
