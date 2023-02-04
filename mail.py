@@ -16,7 +16,7 @@ TEMP = """<br>
 <div>
 New product {name} has been found: 
 <br>
-<a href=//hermes.com/{href}>
+<a href=https://hermes.com/{href}>
 <img src={src} alt={name}></a>
 </div><br>"""
 
