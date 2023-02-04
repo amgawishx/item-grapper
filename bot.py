@@ -30,7 +30,7 @@ AGENTS = ["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, 
 
 # configuration parameters for the run
 PAGE_LOAD_TIMEOUT = 60
-PAGE_DOWNLOAD_TIMEOUT = 15
+PAGE_DOWNLOAD_TIMEOUT = 60
 PROXIES_TIMEOUT_LIMIT = 35
 
 # target URL
@@ -151,45 +151,43 @@ def main(rest=10):
             timeout_count = 0
             run_spiders()
             proxy = fetch_proxies()
-        driver1 = create_driver(PROXY, Port+choice(range(1,450)), premium=False)
-        driver2 = create_driver(ip, port, premium=False)
-        drivers = [driver1, driver2]
-        for driver in drivers:
-            try:
-                logging.info(f"Attempting to get the page.")
-                driver.get(URL)
-                wait = WebDriverWait(driver, PAGE_DOWNLOAD_TIMEOUT)
-                logging.info(f"Validating the page.")
-                validate_html(driver.page_source)
-                wait.until(EC.presence_of_element_located(
-                    (By.CLASS_NAME, "product-item-name")))
-                logging.info("Parsing the page.")
-                new_ids, new_imgs, new_links = parse_html(driver.page_source)
-                # check if any new products are present
-                if (results != new_ids  and
-                    results != set()):
-                    new_items = new_ids-results
-                    if new_items != set():
-                        logging.warning(f"New items {new_items} has been found!")
-                        send_email(new_items, new_imgs, new_links)
-                results = new_ids
-                logging.info(f"Data acquired: {results}.")
-                logging.info(f"Going to seelp for {rest}s")
-                driver.quit()
-                sleep(rest)
-                break
-            except (WebDriverException, AssertionError,
-                    SessionNotCreatedException) as error:
-                if type(error) == AssertionError:
-                    logging.error(
-                        "The site has blocked or detected us as bot, moving on to the next proxy.")
-                elif (type(error) == WebDriverException or
-                    type(error) == SessionNotCreatedException or
-                    type(error) == TimeoutException):
-                    timeout_count += 1
-                    logging.error(
-                        "The proxy has timed-out, moving on to the next proxy.")
-                driver.quit()
+        driver = create_driver(PROXY, Port+choice(range(1,450)), premium=False)
+        try:
+            logging.info(f"Attempting to get the page.")
+            driver.get(URL)
+            wait = WebDriverWait(driver, PAGE_DOWNLOAD_TIMEOUT)
+            logging.info(f"Validating the page.")
+            validate_html(driver.page_source)
+            wait.until(EC.presence_of_element_located(
+                (By.CLASS_NAME, "product-item-name")))
+            logging.info("Parsing the page.")
+            new_ids, new_imgs, new_links = parse_html(driver.page_source)
+            # check if any new products are present
+            if (results != new_ids  and
+                results != set()):
+                new_items = new_ids-results
+                if new_items != set():
+                    logging.warning(f"New items {new_items} has been found!")
+                    send_email(new_items, new_imgs, new_links)
+            results = new_ids
+            logging.info(f"Data acquired: {results}.")
+            logging.info(f"Going to seelp for {rest}s")
+            driver.quit()
+            sleep(rest)
+            continue
+        except (WebDriverException, AssertionError,
+                SessionNotCreatedException) as error:
+            if type(error) == AssertionError:
+                logging.error(
+                    "The site has blocked or detected us as bot, moving on to the next proxy.")
+            elif (type(error) == WebDriverException or
+                 type(error) == SessionNotCreatedException or
+                 type(error) == TimeoutException):
+                timeout_count += 1
+                logging.error(
+                    "The proxy has timed-out, moving on to the next proxy.")
+            driver.quit()
+            continue
 
 if __name__ == "__main__":
     main()
