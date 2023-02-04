@@ -36,7 +36,7 @@ PROXIES_TIMEOUT_LIMIT = 35
 # target URL
 URL = "https://www.hermes.com/nl/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|"
 
-PROXY = "http://mkom99.protonmail.com:kvx46aAk9Ak95gC@gate2.proxyfuel.com"
+PROXY = "69.30.227.194"
 
 # configuring the logger from the LOG_CONFIG dictionary found in logger.py
 config(LOG_CONFIG)
