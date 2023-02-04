@@ -130,7 +130,7 @@ def parse_html(html: str) -> set:
     return set(ids), imgs, links
     
 
-async def run(ip, port, results, premium = True):
+async def fetch(ip, port, results, premium = True):
     """
     The main function to run.
     """
@@ -181,8 +181,8 @@ async def main(rest = 10):
             proxy = fetch_proxies()
         try:
             done, _ = await wait([
-                run(ip, port, results),
-                run(ip, port, results, premium=False)
+                fetch(ip, port, results),
+                fetch(ip, port, results, premium=False)
             ], return_when=FIRST_COMPLETED)
             results = done.pop().result()
         except (WebDriverException, AssertionError,
