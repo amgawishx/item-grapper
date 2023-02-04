@@ -140,7 +140,7 @@ def main(rest=10):
     timeout_count = 0 # a counter to count how many timeouts occured and the need to update the proxies
     results = set()
     while True:
-        i += 0
+        i += 1
         try: ip, port = next(proxy) # get a frexh proxy
         except StopIteration:
             logging.warning("Consumed all existing proxies, acquiring new.")
