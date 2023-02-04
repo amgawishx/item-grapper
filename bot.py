@@ -91,6 +91,7 @@ def create_driver(ip: str, port: str, premium = True) -> webdriver.Firefox:
     # setting up the browser options to run headless with enabled JS to allow the site to render
     firefox_options.add_argument("--headless")
     firefox_options.add_argument("--enable-javascript")
+    logging.info(f"Instantiating a driver with proxy: {ip}:{port}.")
     driver = webdriver.Firefox(
         options=firefox_options,
         firefox_profile=profile
@@ -139,7 +140,6 @@ def main(rest=10):
     timeout_count = 0 # a counter to count how many timeouts occured and the need to update the proxies
     results = set()
     while True:
-        i += 1
         try: ip, port = next(proxy) # get a frexh proxy
         except StopIteration:
             logging.warning("Consumed all existing proxies, acquiring new.")
@@ -151,7 +151,6 @@ def main(rest=10):
             timeout_count = 0
             run_spiders()
             proxy = fetch_proxies()
-        logging.info(f"Instantiating a driver with proxy: {ip}:{port}.")
         driver = create_driver(PROXY, Port+choice(range(1,450)), premium=False)
         try:
             logging.info(f"Attempting to get the page.")
