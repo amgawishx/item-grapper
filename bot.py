@@ -152,7 +152,7 @@ def main(rest=10):
             run_spiders()
             proxy = fetch_proxies()
         driver1 = create_driver(PROXY, Port+choice(range(1,450)), premium=False)
-        driver2 = create_driver(proxy, port, premium=False)
+        driver2 = create_driver(ip, port, premium=False)
         drivers = [driver1, driver2]
         for driver in drivers:
             try:
