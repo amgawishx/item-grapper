@@ -136,6 +136,7 @@ async def fetch(ip, port, results, premium = True):
     """
     The main function to run.
     """
+    logging.debug(f"Initial call results: {results}")
     Port = 20000
     if premium:
         driver = create_driver(PROXY, Port+choice(range(1,450)), premium=False)
@@ -159,6 +160,7 @@ async def fetch(ip, port, results, premium = True):
             send_email(new_items, new_imgs, new_links)
     results = new_ids
     driver.quit()
+    logging.debug(f"Call return results: {results}")
     return results
 
 async def main(rest = 10):
