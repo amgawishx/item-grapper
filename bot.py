@@ -30,8 +30,8 @@ AGENTS = ["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, 
           "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4430.85 Safari/537.36"]
 
 # configuration parameters for the run
-PAGE_LOAD_TIMEOUT = 60
-PAGE_DOWNLOAD_TIMEOUT = 60
+PAGE_LOAD_TIMEOUT = 15
+PAGE_DOWNLOAD_TIMEOUT = 15
 PROXIES_TIMEOUT_LIMIT = 35
 
 # target URL
@@ -164,7 +164,6 @@ async def fetch(ip, port, results, premium = True):
     return results
 
 async def main(rest = 10):
-    logging.info(f"Going to seelp for {rest}s")
     logging.info("Acquiring the proxies list.")
     proxy = fetch_proxies() # create proxies generator
     logging.info("Control loop started.")
@@ -190,6 +189,8 @@ async def main(rest = 10):
             logging.debug(done, _)
             results = done.pop().result()
             logging.info(f"Data acquired: {results}.")
+            logging.info(f"Going to seelp for {rest}s")
+            sleep(rest)
         except (WebDriverException, AssertionError,
             SessionNotCreatedException) as error:
             if type(error) == AssertionError:
