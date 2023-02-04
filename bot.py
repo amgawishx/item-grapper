@@ -128,7 +128,7 @@ def parse_html(html: str) -> set:
     return set(ids), imgs, links
     
 
-def main(rest=60):
+def main(rest=10):
     """
     The main function to run.
     """
