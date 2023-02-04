@@ -12,8 +12,20 @@ CLIENT_EMAIL = os.environ["CLIENT_EMAIL"]
 
 PORT = 465
 
-def send_email(text):
-    message = MIMEText(text, 'plain', 'utf-8')
+TEMP = """<br>
+<div>
+New product {name} has been found: 
+<br>
+<a href=//hermes.com/{href}}>
+<img src={src} alt={name}></a>
+</div><br>"""
+
+def send_email(ids: set, imgs: dict, links: dict) -> None:
+    text = ""
+    for id in ids:
+        text += TEMP.format(
+            name=imgs[id]["alt"], href=links[id], src=imgs[id]["src"])
+    message = MIMEText(text, 'html', 'utf-8')
     message['Subject'] = "New Hermes Products Notifications"
     message['From'] = COMPANY_NAME + f" <{COMPANY_EMAIL}>"
     message['To'] = CLIENT_EMAIL 

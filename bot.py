@@ -109,10 +109,19 @@ def parse_html(html: str) -> set:
     using css selectors.
     """
     body = HtmlResponse(url=URL, body=html, encoding='utf-8')
-    products = []
-    for tag in body.css("span.product-item-name"):
-        products.append(tag.css("::text").get())
-    return set(products)
+    ids = []
+    imgs = {}
+    links = {}
+    for tag in body.css("div.product-item-meta[id]"):
+        id = tag.css("::attr(id)").get().split('-')[::-1][0]
+        ids.append(id)
+        img = body.css(f"img#img-{id}")
+        link = body.css(f"a#product-item-meta-link-{id}::attr(href)").get()
+        links[id] = link
+        imgs[id] = {"src": img.css("::attr(src)").get(),
+                    "alt": img.css("::attr(alt)").get()}
+    return set(ids), imgs, links
+    
 
 def main(rest=60):
     """
@@ -146,16 +155,15 @@ def main(rest=60):
             wait.until(EC.presence_of_element_located(
                 (By.CLASS_NAME, "product-item-name")))
             logging.info("Parsing the page.")
-            new_results = parse_html(driver.page_source)
+            new_ids, new_imgs, new_links = parse_html(driver.page_source)
             # check if any new products are present
-            if (results != new_results  and
+            if (results != new_ids  and
                 results != set()):
-                new_items = new_results-results
+                new_items = new_ids-results
                 if new_items != set():
                     logging.warning(f"New items {new_items} has been found!")
-                    send_email(f"The following products has been added \
-                               to the Hermes store: {new_items}")
-            results = new_results
+                    send_email(new_items, new_imgs, new_links)
+            results = new_ids
             logging.info(f"Data acquired: {results}.")
             logging.info(f"Going to seelp for {rest}s")
             driver.quit()
