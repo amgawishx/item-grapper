@@ -101,7 +101,7 @@ def create_driver(ip: str, port: str, premium = True) -> webdriver.Firefox:
     driver.set_window_size(int(window_size[0]), int(window_size[1])) # set the chosen resolution
     return driver
 
-async def validate_html(html: str) -> None:
+def validate_html(html: str) -> None:
     """
     A function used to validate that the page we fetched
     is not a blocked or a captcha page using css selectors.
@@ -128,7 +128,9 @@ def parse_html(html: str) -> set:
         imgs[id] = {"src": img.css("::attr(src)").get(),
                     "alt": img.css("::attr(alt)").get()}
     return set(ids), imgs, links
-    
+
+async def get(driver):
+    driver.get(URL)
 
 async def fetch(ip, port, results, premium = True):
     """
@@ -140,10 +142,10 @@ async def fetch(ip, port, results, premium = True):
     else:
         driver = create_driver(ip, port, premium=False)
     logging.info(f"Attempting to get the page.")
-    driver.get(URL)
+    await get(driver)
     wait = WebDriverWait(driver, PAGE_DOWNLOAD_TIMEOUT)
     logging.info(f"Validating the page.")
-    await validate_html(driver.page_source)
+    validate_html(driver.page_source)
     wait.until(EC.presence_of_element_located(
         (By.CLASS_NAME, "product-item-name")))
     logging.info("Parsing the page.")
