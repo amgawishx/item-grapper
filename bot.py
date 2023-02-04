@@ -185,6 +185,7 @@ async def main(rest = 10):
                 fetch(ip, port, results),
                 fetch(ip, port, results, premium=False)
             ], return_when=FIRST_COMPLETED)
+            logging.debug(done, _)
             results = done.pop().result()
             logging.info(f"Data acquired: {results}.")
         except (WebDriverException, AssertionError,
