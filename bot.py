@@ -132,12 +132,15 @@ def main(rest=10):
     """
     The main function to run.
     """
+    i = 0
+    Port = 20000
     logging.info("Acquiring the proxies list.")
     proxy = fetch_proxies() # create proxies generator
     logging.info("Control loop started.")
     timeout_count = 0 # a counter to count how many timeouts occured and the need to update the proxies
     results = set()
     while True:
+        i += 0
         try: ip, port = next(proxy) # get a frexh proxy
         except StopIteration:
             logging.warning("Consumed all existing proxies, acquiring new.")
@@ -150,7 +153,7 @@ def main(rest=10):
             run_spiders()
             proxy = fetch_proxies()
         logging.info(f"Instantiating a driver with proxy: {ip}:{port}.")
-        driver = create_driver(ip, port)
+        driver = create_driver(PROXY, Port+i, premium=False)
         try:
             logging.info(f"Attempting to get the page.")
             driver.get(URL)
