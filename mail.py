@@ -16,7 +16,7 @@ TEMP = """<div>
 New product {name} has been found: 
 <br>
 <a href=https://hermes.com{href}>
-<img src={src} alt={name}></a>
+<img src=https:{src} alt={name}></a>
 </div><br>"""
 
 def send_email(ids: set, imgs: dict, links: dict) -> None:
