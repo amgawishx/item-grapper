@@ -178,7 +178,7 @@ def main(rest=10):
                     logging.info("Launching into one-session mode.")
                     driver.execute_script('window.scrollTo({"top":document.body.scrollHeight,"left":0,"behavior":"smooth"});')
                     logging.info("Sleeping after scrolling.")
-                    sleep(2)
+                    sleep(30)
                     logging.info("Refreshing page.")
                     driver.refresh()
                     logging.info(f"Validating the page.")
