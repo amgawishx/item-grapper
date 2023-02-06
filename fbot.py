@@ -153,7 +153,7 @@ def main(rest=10):
             timeout_count = 0
             run_spiders()
             proxy = fetch_proxies()
-        driver = create_driver(PROXY, Port+numbers.pop(), premium=False)
+        driver = create_driver(ip, port, premium=False)
         try:
             logging.info(f"Attempting to get the page.")
             driver.get(URL)
@@ -173,30 +173,6 @@ def main(rest=10):
                     send_email(new_items, new_imgs, new_links)
             results = new_ids
             logging.info(f"Data acquired: {results}.")
-            if results:
-                while True:
-                    logging.info("Launching into one-session mode.")
-                    driver.execute_script('window.scrollTo({"top":document.body.scrollHeight,"left":0,"behavior":"smooth"});')
-                    logging.info("Sleeping after scrolling.")
-                    sleep(30)
-                    logging.info("Refreshing page.")
-                    driver.refresh()
-                    logging.info(f"Validating the page.")
-                    validate_html(driver.page_source)
-                    wait.until(EC.presence_of_element_located(
-                        (By.CLASS_NAME, "product-item-name")))
-                    logging.info("Parsing the page.")
-                    new_ids, new_imgs, new_links = parse_html(driver.page_source)
-                    # check if any new products are present
-                    if (results != new_ids  and
-                        results != set()):
-                        new_items = new_ids-results
-                        if new_items != set():
-                            logging.warning(f"New items {new_items} has been found!")
-                            send_email(new_items, new_imgs, new_links)
-                    results = new_ids
-                    logging.info(f"Data acquired: {results}.")
-                    sleep(10)
             logging.info(f"Going to seelp for {rest}s")
             driver.quit()
             sleep(rest)
