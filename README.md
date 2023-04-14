@@ -25,7 +25,7 @@ Python  requirements:
 
 To install them, run the following after running the system requirements:
 ```
-pip3 install scapy==2.6.3 selenium==3.141.0
+pip3 install scrapy==2.6.3 selenium==3.141.0
 ```
 ## Usage
 The file named `bot.py` is the entry point to the application, it can be simply run using: `python3 bot.py` but the better approach is to create  a `cronjob` to daily run the launch command to clean up the log files preventing using all available disk space, refresh the proxies that update every 24 hours and keep the application running in background even after ending a SSH session.
