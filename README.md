@@ -20,7 +20,7 @@ sudo mv geckodriver /usr/local/bin
 Also RAM must be at least 2GB
 
 Python  requirements: 
-- scapy==2.6.3
+- scrapy==2.6.3
 - selenium==3.141.0
 
 To install them, run the following after running the system requirements:
