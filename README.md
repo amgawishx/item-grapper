@@ -31,7 +31,7 @@ pip3 install scrapy==2.6.3 selenium==3.141.0
 The file named `bot.py` is the entry point to the application, it can be simply run using: `python3 bot.py` but the better approach is to create  a `cronjob` to daily run the launch command to clean up the log files preventing using all available disk space, refresh the proxies that update every 24 hours and keep the application running in background even after ending a SSH session.
 
 ## Structure
-The whole code is a `scapy` project created by the `scrapy startproject hermes`, for more information about `scrapy` projects are found at: https://docs.scrapy.org/en/latest/intro/tutorial.html
+The whole code is a `scrapy` project created by the `scrapy startproject hermes`, for more information about `scrapy` projects are found at: https://docs.scrapy.org/en/latest/intro/tutorial.html
 The `bot.py`file contains the main code utilizing `webdriver`to navigate to the target URL.
 The `proxies.json`is a file generated automatically using the following command:  `scrapy crawl arachne -O proxies.json`.
 There are a few needed environment variables to run the application:
